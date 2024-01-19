@@ -10,7 +10,9 @@
   --pf-bold:  "Helevetica Now Bold", sans-serif;
   --sf-bold:  "Nike Futura", impact;
 }
-
+*{
+  font-family: sans-serif;
+}
 a{
   text-decoration: none;
   color: var(--pd-color);
