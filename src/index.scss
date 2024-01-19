@@ -1,0 +1,17 @@
+@import '_reste';
+:root{
+  --pl-color: #fff;
+  --pd-color: #111;
+  --sf-color: #707072;
+  --phl-color: #e5e5e5;
+  --sg-color: #f5f5f5;
+  --pf-regular:  "Helevetica Now Regular", sans-serif;
+  --pf-medium:  "Helevetica Now Medium", sans-serif;
+  --pf-bold:  "Helevetica Now Bold", sans-serif;
+  --sf-bold:  "Nike Futura", impact;
+}
+
+a{
+  text-decoration: none;
+  color: var(--pd-color);
+}
