@@ -1,8 +1,11 @@
 import React from 'react'
+import Category from '../category/Category'
 
 const Main = () => {
   return (
-    <div>Main</div>
+    <div>
+      <Category/>
+    </div>
   )
 }
 
