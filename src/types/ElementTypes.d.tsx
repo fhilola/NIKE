@@ -24,3 +24,11 @@ export type Product = {
     created_at: number;
     __v: number;
 }
+export type SubLink = {
+  sub_link_title: string;
+  link: string;
+};
+export type Route = {
+  sub_title: string;
+  sub_links: SubLink[];
+};
