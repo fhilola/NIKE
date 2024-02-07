@@ -5,7 +5,6 @@ import Main from '../../components/main/Main'
 
 const Home = forwardRef<HTMLDivElement>((props, mainElement) => {
   console.log(props);
-  
   return (
     <div ref={mainElement}>
       <Announcement/>

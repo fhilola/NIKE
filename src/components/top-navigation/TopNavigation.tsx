@@ -20,8 +20,9 @@ const TopNavigation = () => {
           <ul className="top-navigation__list">
             <li><Link to='/'>Find a Store</Link></li>
             <li><Link to='/help'>Help</Link></li>
-            <li><Link to='/join-us'>Join Us</Link></li>
+            <li><Link to='/join'>Join Us</Link></li>
             <li><Link to='/sign-in'>Sign In</Link></li>
+            <li><Link to='/cart'>Cart</Link></li>
           </ul>
         </div>
       </Container>

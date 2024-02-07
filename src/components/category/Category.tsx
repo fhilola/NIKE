@@ -1,11 +1,11 @@
-import React, { useEffect, useRef } from 'react'
+import React, { MutableRefObject, useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import categoryImg from '../../assets/category.jpg'
 import categoryVideo from '../../assets/nike-com.mp4'
 import './Category.scss'
 
 const Category = () => {
-    const videoRef = useRef()
+    const videoRef = useRef() as MutableRefObject<HTMLVideoElement>
     useEffect(()=>{
         videoRef.current.playbackRate = 0.7
     },[])
@@ -23,7 +23,7 @@ const Category = () => {
         </div>
         <div className="category-item">
             <Link to='/'className='category-link'>
-                <video mooted loop autoPlay ref={videoRef} src={categoryVideo}></video>
+                <video muted loop autoPlay ref={videoRef} src={categoryVideo}></video>
                 <div className="category-content">
                     <p>Invincible 3</p>
                     <h4>Take Cushion for Run</h4>
